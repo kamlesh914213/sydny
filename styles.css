@@ -211,7 +211,7 @@ body {
 }
 
 .therapy-section {
-    background-image: url("/images/Herosection\(1\).svg");
+    background-image: url("images/Herosection\(1\).svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ body {
 }
 
 .Comprehensive {
-    background-image: url("/images/Untitled.svg");
+    background-image: url("images/Untitled.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -473,7 +473,7 @@ body {
 }
 
 .online-therapy {
-    background-image: url(./images/globale-cta.webp);
+    background-image: url(images/globale-cta.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -559,7 +559,7 @@ body {
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("/images/fi_12314153.svg");
+    background-image: url("images/fi_12314153.svg");
     background-color: unset;
 }
 
@@ -1480,7 +1480,7 @@ body {
 }
 
 .footer-online-subscribe {
-    background-image: url("./images/globale-cta.webp");
+    background-image: url("images/globale-cta.webp");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1600,7 +1600,7 @@ body {
     background-color: #F0F4F8;
     padding: 40px 0;
     font-family: 'Sora', sans-serif;
-    background-image: url('/images/Herosection\(1\).svg');
+    background-image: url('images/Herosection\(1\).svg');
     background-size: cover;
     background-position: center;
     width: Fixed (1, 440px)px;
@@ -1759,7 +1759,7 @@ body {
 
     .therapy-section-phone {
         display: unset;
-        background-image: url("/images/nav-header-background.svg");
+        background-image: url("images/nav-header-background.svg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
