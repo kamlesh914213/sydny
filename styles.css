@@ -473,7 +473,7 @@ body {
 }
 
 .online-therapy {
-    background-image: url(/images/globale-cta.webp);
+    background-image: url(./images/globale-cta.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1480,7 +1480,7 @@ body {
 }
 
 .footer-online-subscribe {
-    background-image: url("/images/globale-cta.webp");
+    background-image: url("./images/globale-cta.webp");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
