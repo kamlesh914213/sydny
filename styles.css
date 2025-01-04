@@ -1,0 +1,2629 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+/* @media (min-width: 1304px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1304px;
+    }
+} */
+
+
+.top-bar .social-icons img:hover {
+    transform: scale(1.25);
+}
+
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+/* -------------------Top-Bar -------------------*/
+.top-bar .social-icons img {
+    width: 20px;
+    box-shadow: 0px 4px 30px 0px #00000014;
+}
+
+.top-bar {
+    background: #134A8E;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: auto;
+}
+
+.top-bar .contact-info {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.top-bar .contact-info :hover {
+    text-decoration: none;
+    color: #27A9E1;
+    cursor: pointer;
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info .separator {
+    width: 1px;
+    height: 20px;
+    background-color: #FFFFFF;
+    margin: 0 15px;
+}
+
+.contact-info i {
+    margin-right: 8px;
+}
+
+/* ----------------Header Section----------------------- */
+
+.navbar-toggler {
+    border: none;
+}
+
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(39, 169, 225, 0.1);
+    /* Light blue on hover */
+    color: rgba(39, 169, 225, 1);
+    /* Text color on hover */
+}
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px #00000014;
+}
+
+.logo {
+    height: 50px;
+}
+
+/* Navigation Styles */
+.navbar-light .navbar-nav .nav-link {
+    color: #334155;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    padding: 10px 15px;
+    /* Smooth transitions */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(19, 74, 142, 1);
+    font-weight: 600;
+}
+
+.nav-btn {
+    background: #27A9E1;
+    padding: 15px 30px 15px 30px;
+    gap: 16px;
+    border-radius: 100px;
+
+}
+
+.nav-btn {
+    padding: 15px 30px;
+    border-radius: 100px;
+    background: #27A9E1;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-btn a {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.64px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+    position: relative;
+    top: 2px;
+}
+
+.arrow-icon {
+    margin-left: 16px;
+    width: 16px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #134A8E;
+}
+
+.nav-btn:hover .arrow-icon {
+    transform: rotate(45deg);
+}
+
+.nav-btn:hover a {
+    color: #FFFFFF;
+}
+
+/* ---------------therapy-section-- */
+
+.background-theorapy-left {
+    position: absolute;
+    top: -39px;
+    left: 0;
+    z-index: -1;
+}
+
+.background-theorapy-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.therapy-section {
+    background-image: url("/images/Herosection\(1\).svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 895px;
+    width: 100%;
+    position: relative;
+}
+
+.bold2 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.Speech-Therapy {
+    margin-right: 10px;
+}
+
+.therapy-card {
+    height: 100%;
+    position: relative;
+}
+
+.row {
+    position: relative;
+}
+
+.Comprehensive {
+    background-image: url("/images/Untitled.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 286px;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    width: 633px;
+}
+
+.Comprehensive h2 {
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: left;
+    max-width: 551px;
+    color: #134A8E;
+
+}
+
+.Comprehensive h2 span {
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: left;
+    color: rgba(19, 74, 142, 1);
+
+}
+
+.Comprehensive p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #334155;
+    max-width: 385px;
+    padding-top: 30px;
+}
+
+.btn-2 {}
+
+.Comprehensive div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-2 {
+    position: relative;
+    top: 20px;
+}
+
+#Enquirybtn {
+    font-size: 13px;
+    color: rgba(51, 65, 85, 1);
+    color: #FFFFFF;
+
+}
+
+#arrow-icon1 {
+    width: 12px;
+}
+
+.second-img {
+    margin-right: 30px;
+}
+
+.overlay {
+    border: 1px solid white;
+
+    border-image-source: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(28, 135, 255, 0) 0%, #1C87FF 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ,
+        radial-gradient(97.09% 224.61% at 1.38% 96.94%, rgba(28, 135, 255, 0) 0%, #1C87FF 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ,
+        linear-gradient(114.55deg, rgba(255, 255, 255, 0.9) 2.13%, rgba(255, 255, 255, 0) 98.14%);
+    background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    bottom: 20px;
+    border-radius: 90px;
+    backdrop-filter: blur(42px);
+    left: 40px;
+    padding: 8px 15px;
+}
+
+.second-overlay {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 5px;
+}
+
+.overlay2 {
+    position: relative;
+    left: 85px;
+}
+
+.first-overlay {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 356px;
+    align-items: center;
+    position: relative;
+    top: 5px;
+}
+
+.irst-img img {
+    max-width: 99%;
+}
+
+.second-img img {
+    max-width: 97%;
+    height: 354px;
+    position: relative;
+    left: 10px;
+    /* z-index: -1; */
+}
+
+.third-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.therapy-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+
+
+.therapy-section-phone {
+    display: none;
+    position: relative;
+}
+
+
+
+/* Image Box */
+.image-box {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Overlay for text on images */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    color: #fff;
+    width: 89%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    bottom: 19px;
+    left: 26px;
+}
+
+/* Therapy Info Section */
+.therapy-info h2 {
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+.therapy-info h2 strong {
+    color: #0066cc;
+}
+
+.Comprehensive2 {
+    height: 440px;
+}
+
+.therapy-info p {
+    font-size: 16px;
+    /* color: #555; */
+    margin-bottom: 20px;
+}
+
+.enquiry-btn {
+    padding: 12px 25px;
+    background-color: #00aaff;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.enquiry-btn span {
+    margin-left: 10px;
+}
+
+/* ---------------------online-therapy--------------------- */
+.online-therapy {
+    max-width: 1064px;
+    height: 331px;
+    position: relative;
+    bottom: 127px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.online-therapy {
+    background-image: url(/images/globale-cta.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.online-therapy-child {
+    /* background: rgba(19, 74, 142, 1); */
+    /* background-image: url("/images/globale-cta.webp"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 335px;
+    border-radius: 32px;
+    padding: 18px 0px 0px 0px;
+}
+
+.online-therapy-child h2 {
+    font-family: Sora;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.online-therapy-child p {
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(245, 245, 245, 1);
+}
+
+.online-therapy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.therapy-info h2 {
+    position: relative;
+    top: 25px;
+}
+
+.arrow-icon1 {
+    width: 20px;
+    height: 13px;
+    position: relative;
+    bottom: 3px;
+}
+
+.online-therapy-btn1 {
+    background-color: unset;
+    position: relative;
+    top: 20px;
+}
+
+
+.online-therapy-btn1:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.online-therapy-btn1 a {
+    position: relative;
+    left: 10px;
+}
+
+.online-therapy-btn1:hover a {
+    color: rgba(39, 169, 225, 1);
+}
+
+.online-therapy-btn1:hover .arrow-icon {
+    filter: invert(44%) sepia(94%) saturate(1244%) hue-rotate(160deg) brightness(92%) contrast(101%);
+}
+
+.online-therapy-btn1 {
+    width: 173px;
+    border: 1px solid white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/images/fi_12314153.svg");
+    background-color: unset;
+}
+
+.background-theorapy-phone-left {
+    display: none;
+}
+
+.background-theorapy-phone-right {
+    display: none;
+}
+
+/* -----------section-2-------------------------- */
+.Therapy-vedio-Section {
+    position: relative;
+    bottom: 70px;
+}
+
+.therapy-wrapper {
+    padding: 40px 0;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.therapy-heading {
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+    max-width: 291px;
+}
+
+.therapy-subheading {
+    font-family: Sora;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    text-align: left;
+    color: rgba(19, 74, 142, 1);
+    max-width: 487px;
+}
+
+.therapy-wrapper-txt {
+    display: flex;
+}
+
+.therapy-wrapper-txt .therapy-subheading strong {
+    color: rgba(19, 74, 142, 1);
+}
+
+.therapy-description {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+    max-width: 281px;
+
+}
+
+.thearapy-wrapper-btn {
+    width: 213px;
+}
+
+.therapy-wrappe-img {
+    padding-top: 30px;
+}
+
+.therapy-wrapper-Providing::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 90%;
+    background-color: rgba(19, 74, 142, 1);
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.therapy-wrapper-Providing {
+    position: relative;
+    padding-left: 20px;
+}
+
+
+.therapy-enquiry-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.therapy-stats {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.therapy-enquiry-btn span {
+    margin-left: 10px;
+}
+
+.therapy-image-col img {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/* Video Box Styling */
+.therapy-video-box {
+    position: relative;
+    max-width: 100%;
+}
+
+.therapy-video-box img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.therapy-play-button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 46px;
+    height: 46px;
+    background: rgba(39, 169, 225, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    bottom: -24px;
+    left: 33px;
+    animation: therapy-bounce-animation 2s infinite;
+    /* Duration in milliseconds */
+}
+
+@keyframes therapy-bounce-animation {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        box-shadow: 0 0 0 0px rgba(37, 182, 250, 0.7);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+        /* Button grows slightly */
+        box-shadow: 0 0 0 15px rgba(89, 193, 240, 0);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        box-shadow: 0 0 0 0px rgba(216, 236, 245, 0);
+    }
+}
+
+.therapy-play-button img {
+    width: 100%;
+    height: auto;
+}
+
+.therapy-play-button img {
+    width: 15.67px;
+    height: 17px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.therapy-stats {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.therapy-stat-item {
+    margin-bottom: 10px;
+}
+
+.therapy-stat-item h3 {
+    font-family: Sora;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50.6px;
+    text-align: center;
+    color: rgba(19, 74, 142, 1);
+}
+
+.therapy-stat-item p {
+    color: rgba(100, 116, 139, 1);
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+}
+
+.therapy-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.therapy-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.therapy-video-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.therapy-video-content {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+}
+
+.therapy-video {
+    width: 100%;
+    height: auto;
+}
+
+.therapy-close-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.therapy-video-box img,
+.therapy-play-button img {
+    pointer-events: none;
+}
+
+
+/* --------------------------how to help-------------- */
+.how-we-help {
+    padding: 60px 10px 60px 10px;
+    background: rgba(240, 249, 255, 0.4);
+    position: relative;
+}
+
+.how-we-help-txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-we-help h2 {
+    font-family: Sora;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    text-align: left;
+    color: rgba(19, 74, 142, 1);
+}
+
+.how-we-help p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+
+}
+
+.how-we-help .view-more {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.how-we-help .view-more span {
+    margin-left: 5px;
+}
+
+/* Card Grid Layout - Displaying 3 cards per row */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Card Styling */
+.card {
+    background-color: unset;
+    width: 100%;
+    height: 336px;
+    padding: 32px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(39, 169, 225, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 1s ease;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    background: #FFF;
+    box-shadow: 0px 8px 40px 0px rgba(19, 74, 142, 0.08), 0px 35px 80px 0px rgba(19, 74, 142, 0.06);
+    border-color: white;
+    cursor: pointer;
+}
+
+.card a:hover span img {
+    transform: rotate(45deg);
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0px auto;
+}
+
+/* Card Title */
+.card h3 {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(19, 74, 142, 1);
+    padding: 20px 0px 10px 0px;
+
+}
+
+/* Card Text */
+.card p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: center;
+    color: rgba(107, 114, 128, 1);
+
+}
+
+.card a {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: center;
+    color: rgba(39, 169, 225, 1);
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.card a span img {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* -----------------------------------Comprehensive Care---------------- */
+.Comprehensive-Care {
+    background-color: white;
+    padding: 100px 80px 100px 80px;
+}
+
+.Comprehensive-Care-container {
+    background: rgba(240, 249, 255, 1);
+    padding: 60px 40px 80px 60px;
+    gap: 10px;
+    border-radius: 32px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.patient-btn {
+    max-width: 217px;
+    margin-top: 24px;
+}
+
+.Comprehensive-Care-img {
+    position: relative;
+}
+
+.Patients-popup {
+    position: absolute;
+    bottom: -36px;
+    left: -30px;
+    box-shadow: rgba(19, 74, 142, 0) 80px 175px 54px 0px, rgba(46, 96, 156, 0.01) 51px 112px 49px 0px, rgba(19, 74, 142, 0.05) 29px 63px 42px 0px, rgba(19, 74, 142, 0.09) 13px 28px 31px 0px, rgba(19, 74, 142, 0.1) 3px 7px 17px 0px;
+    background: rgba(255, 255, 255, 1);
+    width: Hug (242px)px;
+    padding: 18px 30px 18px 30px;
+    border-radius: 16px;
+}
+
+.Patients-popup h3 {
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(19, 74, 142, 1);
+}
+
+.review-patient {
+    display: flex;
+    text-align: center;
+}
+
+.review-patient p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.review-patient img {
+    height: 24px;
+    width: 24px;
+}
+
+.popup-img {
+    width: 100%;
+    height: auto;
+}
+
+.Comprehensive-Care-txt {
+    position: relative;
+    top: 20px;
+}
+
+.Comprehensive-Care-txt h2 {
+    font-family: Sora;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    text-align: left;
+    color: rgba(19, 74, 142, 1);
+    max-width: 500px;
+}
+
+.Comprehensive-Care-txt p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+    max-width: 530px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Comprehensive-Care-vector div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.Comprehensive-Care-vector img {
+    margin-right: 14px;
+    width: 24px;
+    height: auto;
+}
+
+.Comprehensive-Care-vector p {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    margin: 0;
+    color: rgba(19, 74, 142, 1);
+}
+
+/* -------------------------------block section--------------------- */
+.blog-section {
+    padding: 60px 10px 100px 10px;
+    background: rgba(240, 249, 255, 1);
+    position: relative;
+
+}
+
+.accordion {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.accordion li {
+    width: 320px;
+    height: 614px;
+    overflow: hidden;
+    transition: width 1s ease, height 1s ease, border-radius 1s ease;
+    /* Added longer duration for smoothness */
+}
+
+.accordion li:hover {
+    animation: smoothExpand 0.7s forwards;
+    cursor: pointer;
+}
+
+@keyframes smoothExpand {
+    0% {
+        width: 320px;
+        height: 614px;
+        border-radius: 0px;
+    }
+
+    100% {
+        width: 600px;
+        height: 614px;
+        border-radius: 20px;
+    }
+}
+
+.accordion li:hover .arrow-icon-a {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.accordion-btn {
+    width: 37px;
+    height: 37px;
+    padding: 6px;
+    position: absolute;
+    right: 29px;
+    top: 21px;
+    animation: pulse-animation 2s infinite;
+    background: rgba(255, 255, 255, 1);
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(32px);
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+}
+
+.arrow-icon-a {
+    margin-left: 7px;
+}
+
+/* Heading styling including the image */
+.bg2 {
+    width: 100%;
+    height: auto;
+    background-image:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 48.56%, rgba(0, 0, 0, 0.9) 100%),
+        url("images/accourdian-img2.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.bg1 {
+    width: 100%;
+    height: auto;
+    background-image:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 48.56%, rgba(0, 0, 0, 0.9) 100%),
+        url("images/pikaso.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.bg3 {
+    width: 100%;
+    height: auto;
+    background-image:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 48.56%, rgba(0, 0, 0, 0.9) 100%),
+        url("images/pikaso-3.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.blog-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.accourdian-btn2 {
+    border: 1px solid;
+    border-image-source: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(216, 216, 216, 0) 0%, #27A9E1 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ,
+        radial-gradient(97.09% 224.61% at 1.38% 96.94%, rgba(216, 216, 216, 0) 0%, #27A9E1 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ,
+        linear-gradient(114.55deg, rgba(255, 255, 255, 0.9) 2.13%, rgba(255, 255, 255, 0) 98.14%);
+
+    backdrop-filter: blur(42px);
+    background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accourdian-block-link {
+    max-width: 472px;
+    position: relative;
+    right: 35px;
+}
+
+.accourdian-block-link a {
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.12px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: radial-gradient(231% 135.8% at 0.9% 2.98%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(10px);
+    padding: 8px 12px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+
+.accourdian-block-link a:hover {
+    text-decoration: none;
+    color: rgba(39, 169, 225, 1);
+}
+
+#accourdian-block-link1 {
+    position: relative;
+    top: 25px;
+}
+
+.accourdian-block-txt {
+    position: relative;
+    top: 300px;
+    color: white;
+}
+
+.accourdian-block-txt p {
+    font-family: Sora;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    max-width: 512px;
+}
+
+.accourdian-block-txt h2 {
+    font-family: Sora;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40.8px;
+    text-align: left;
+
+}
+
+.description-content {
+    position: relative;
+}
+
+.accordion .heading {
+    position: relative;
+}
+
+.description {
+    border-radius: 30px;
+}
+
+.accordion li:hover .heading img.heading-image {
+    width: 100%;
+    max-width: 100px;
+}
+
+.accordion .description {
+    display: none;
+    padding: 24px;
+}
+
+.accordion li:hover .description {
+    display: block;
+}
+
+.blog-section-top h2 {
+    color: rgba(19, 74, 142, 1);
+}
+
+.blog-section-top p {
+    color: rgba(107, 114, 128, 1);
+}
+
+/* -------------carousel-section----------- */
+
+.carousel-section {
+    gap: 10px;
+}
+
+/* carousel patient */
+.review-details-wrapper {
+    display: flex;
+    gap: 52px;
+    padding-top: 28px;
+}
+
+.review-text-content {
+    max-width: 600px;
+    padding-right: 2px;
+}
+
+.review-header-text h2 {
+    color: #134A8E;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.review-header-text p {
+    color: #6B7280;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 558px;
+    margin: 0 auto;
+}
+
+.patient-info h5 {
+    color: #134A8E;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 26.91px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.patient-info p {
+    color: #6B7280;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 17.94px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.patient-info {
+    border-radius: 17.94px;
+    padding: 12px;
+    border: 1.121px dashed #134A8E;
+}
+
+.review-text-content p {
+    color: #6B7280;
+    text-align: center;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    border-radius: 16px;
+    border: 1px solid #27A9E1;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(19, 74, 142, 0.16);
+    height: 330px;
+    padding: 0 43px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.review-text-content p::after {
+    position: absolute;
+    content: url(images/car-par-1.svg);
+    top: 20px;
+    left: 36px;
+}
+
+.review-text-content p::before {
+    position: absolute;
+    content: url(images/car-par-2.svg);
+    bottom: 25px;
+    right: 88px;
+}
+
+.review-carousel-wrapper {
+    padding-top: 60px;
+    padding-bottom: 108px;
+    position: relative;
+}
+
+.review-carousel-wrapper::after {
+    position: absolute;
+    content: url(images/crs-gr1.png);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.review-carousel-wrapper::before {
+    position: absolute;
+    content: url(images/crs-gr2.png);
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.review-carousel-section {
+    position: relative;
+}
+
+.review-carousel-section .owl-theme .owl-dots .owl-dot.active span,
+.review-carousel-section .owl-theme .owl-dots .owl-dot:hover span {
+    background: #27A9E1;
+}
+
+.review-carousel-section .owl-theme .owl-dots .owl-dot span {
+    background: #C2E7F7;
+}
+
+.review-carousel-section .owl-theme .owl-dots {
+    border-radius: 200px;
+    background: rgba(39, 169, 225, 0.10);
+    position: absolute;
+    bottom: 35px;
+    right: 19%;
+    line-height: 0;
+    padding: 7px 15px;
+}
+
+.review-carousel-section .owl-theme .owl-nav {
+    position: absolute;
+    bottom: 30px;
+    right: 15%;
+    display: flex;
+    gap: 140px;
+}
+
+.review-carousel-section .owl-carousel .owl-nav button.owl-next,
+.review-carousel-section .owl-carousel .owl-nav button.owl-prev {
+    border-radius: 100%;
+    background: rgba(39, 169, 225, 0.20);
+    width: 34px;
+    height: 34px;
+}
+
+.review-carousel-section .owl-carousel .owl-nav button.owl-next:hover,
+.review-carousel-section .owl-carousel .owl-nav button.owl-prev:hover {
+    background: #27A9E1;
+}
+
+.review-carousel-section .owl-carousel .owl-nav button.owl-next:hover svg path,
+.review-carousel-section .owl-carousel .owl-nav button.owl-prev:hover svg path {
+    fill: white;
+}
+
+/* ------------------------suscribe-section-------------------- */
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 56px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-online-subscribe {
+    background-image: url("/images/globale-cta.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px;
+    position: relative;
+}
+
+.footer-online-subscribe-top {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-online-subscribe-top h2 {
+    font-family: Sora;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-online-subscribe p {
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 20px;
+}
+
+
+.subscribe-input {
+    border: none;
+    outline: none;
+    padding: 10px 15px 10px 24px;
+    flex: 1;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: #f9f9f9;
+    color: #969698;
+}
+
+.subscribe-input::placeholder {
+    color: #969698;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe-button {
+    background-color: #27A9E1;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #1b8aba;
+}
+
+.subscribe-button svg {
+    transition: 0.2s;
+}
+
+.subscribe-button:hover svg {
+    transform: rotate(45deg);
+}
+
+.suscribe-btn:hover {
+    border: 1px solid white;
+}
+
+.suscribe-btn {
+    border: 1px solid #27A9E1;
+}
+
+.subscribe-input {
+    border: 1px solid white;
+}
+
+/* Styling the input field */
+.subscribe-btn {
+    background-color: unset;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: center;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Styling the placeholder */
+.subscribe-btn::placeholder {
+    color: #6b7280;
+    opacity: 1;
+}
+
+/* ---------------------footer------------------------------ */
+
+.footer {
+    background-color: #F0F4F8;
+    padding: 40px 0;
+    font-family: 'Sora', sans-serif;
+    background-image: url('/images/Herosection\(1\).svg');
+    background-size: cover;
+    background-position: center;
+    width: Fixed (1, 440px)px;
+    padding: 220px 80px 40px 80px;
+    position: relative;
+    top: 180px;
+}
+
+.footer-online-subscribe {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-links h4,
+.footer-services h4,
+.footer-contact h4 {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(19, 74, 142, 1);
+    margin-bottom: 20px;
+}
+
+.footer-links ul,
+.footer-services ul,
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li,
+.footer-services ul li,
+.footer-contact ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-services ul li a,
+.footer-contact ul li a {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: rgba(51, 65, 85, 1);
+}
+
+.footer-links ul li a:hover,
+.footer-services ul li a:hover,
+.footer-legal a:hover,
+.footer-contact ul li a:hover {
+    font-weight: 600;
+    color: rgba(55, 114, 255, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-contact ul li a img {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/images/copy-line.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 63px 70px 0px 70px;
+}
+
+.footer-bottom p {
+    color: #6B7280;
+    font-size: 14px;
+}
+
+.footer-legal {
+    font-size: 14px;
+}
+
+.footer-legal a {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: rgba(100, 116, 139, 1);
+}
+
+.social-icons-footer {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons-footer a img {
+    width: 24px;
+    height: 24px;
+    background-color: #27A9E1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social-icons-footer a:hover img {
+    filter: brightness(0.8);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1270px) {
+    .therapy-section {
+        padding: 20px;
+    }
+
+    .therapy-info h2 {
+        font-size: 1.4rem;
+    }
+
+    .therapy-info p {
+        font-size: 0.9rem;
+    }
+
+    .enquiry-btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .therapy-section1 {
+        display: none;
+    }
+
+    .therapy-section-phone {
+        display: unset;
+        background-image: url("/images/nav-header-background.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 20px;
+    }
+
+    .Comprehensive div {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+    #arrow-icon1 {
+        width: unset;
+    }
+
+    .online-therapy-child {
+        position: relative;
+    }
+
+    .Comprehensive2 {
+        top: 7px;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+        color: #fff;
+        width: 89%;
+        padding: 10px;
+        text-align: center;
+        font-size: 1rem;
+        bottom: 24px;
+        left: 40px;
+        padding: 17px;
+    }
+
+    .online-therapy {
+        bottom: unset;
+        top: 71px;
+    }
+
+    .background-theorapy-phone-left {
+        display: unset;
+        position: absolute;
+        top: -50px;
+        left: -30px;
+        z-index: -1;
+    }
+
+    .accourdian-block-txt {
+        top: 280px;
+    }
+
+    .background-theorapy-phone-right {
+        display: unset;
+        position: absolute;
+        bottom: -200px;
+        right: 0;
+        z-index: -1;
+    }
+
+    .Comprehensive {
+        width: unset;
+        right: unset;
+    }
+
+    #Enquirybtn {
+        font-size: unset;
+    }
+
+    .Therapy-vedio-Section {
+        position: relative;
+        top: 100px;
+    }
+
+    .how-we-help {
+        top: 30px;
+    }
+
+    .Comprehensive-Care-container {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .Comprehensive-Care {
+        background-color: white;
+        padding: 100px 0px 100px 0px;
+    }
+
+    .therapy-wrapper {
+        position: relative;
+        top: 80px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        bottom: 4px;
+    }
+
+    .review-carousel-section .owl-theme .owl-nav {
+        bottom: -1px;
+
+    }
+}
+
+@media (min-width: 1230px) {
+    .d-lg-block {
+        display: block !important;
+    }
+}
+
+@media (max-width: 1179px) {
+    .accourdian-block-txt {
+        top: 230px;
+    }
+}
+
+@media (max-width: 1136px) {
+    .review-carousel-section .owl-theme .owl-dots {
+        bottom: -25px;
+    }
+
+    .review-carousel-section .owl-theme .owl-nav {
+        bottom: -30px;
+    }
+}
+
+@media (max-width: 1136px) {
+    .online-therapy {
+        top: 52px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        bottom: -25px;
+    }
+
+    .review-carousel-section .owl-theme .owl-nav {
+        bottom: -30px;
+    }
+
+    .accourdian-block-txt {
+        top: 200px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 12px;
+    }   
+    
+}
+@media (max-width:1049px) {
+    .navbar-light .navbar-nav .nav-link{
+        padding: unset;
+        margin-left:10px;
+    }
+}
+@media (max-width: 992px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .therapy-heading {
+        font-size: 1.5rem;
+    }
+
+    .therapy-subheading {
+        font-size: 1.8rem;
+    }
+
+    .therapy-video-stats {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .therapy-image-col img {
+        max-width: 100%;
+        height: auto;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+        padding: 1rem;
+    } 
+}
+
+/* For small screens, ensure images are stacked properly */
+@media (max-width: 991px) {
+    .Therapy-Image {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .image-box1 {
+        margin-bottom: 20px;
+    }
+
+    .nav-btn-non {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: flex-end;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .header-parent {
+        display: block;
+        padding: unset;
+    }
+
+    .logo {
+        height: 50px;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        position: relative;
+        top: 20px;
+    }
+
+    .dropdown-menu {
+        border: none;
+    }
+
+    .online-therapy-child h2 {
+        font-size: 30px;
+    }
+
+    .therapy-video-box img {
+        bottom: unset;
+    }
+
+    .how-we-help {
+        top: unset;
+    }
+
+    .review-details-wrapper {
+        flex-direction: column;
+        max-width: 100vw;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .patient-info {
+        flex: 0 0 25%;
+    }
+
+    .review-text-content {
+        flex: 0 0 95%;
+    }
+
+    .review-carousel-section .owl-theme .owl-nav {
+        right: 50%;
+        bottom: -44px;
+        transform: translateX(50%);
+        padding: 7px 6px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        left: 50%;
+        bottom: -32px;
+        transform: translateX(-50%);
+        padding: 7px 7px;
+    }
+
+    .footer-online-subscribe {
+        padding: 40px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        right: 38%;
+    }
+}
+
+@media (max-width:946px) {
+    .review-carousel-section .owl-theme .owl-dots {
+        right: 36%;
+    }
+}
+
+@media (max-width:920px) {
+    .accourdian-block-txt h2 {
+        font-size: 32px;
+        line-height: 39.8px;
+    }
+}
+
+@media (max-width:880px) {
+    .accourdian-block-txt h2 {
+        font-size: 24px;
+        line-height: 30.8px;
+    }
+
+    .accourdian-block-txt p {
+        font-size: 12px;
+        line-height: 16.8px;
+    }
+}
+
+@media (max-width:815px) {
+    .review-carousel-section .owl-theme .owl-dots {
+        right: 32%;
+    }
+}
+
+@media (max-width: 769px) {
+    .footer-online-subscribe {
+        padding: 30px;
+    }
+
+    .footer-online-subscribe p {
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    .footer-online-subscribe-top h2 {
+        font-size: 28px;
+        line-height: 1.2px;
+    }
+
+    .online-therapy-child {
+        background-image: none;
+    }
+
+    .online-therapy-child h2 {
+        font-size: 24px;
+    }
+
+    .online-therapy-child p {
+        font-size: 16px;
+    }
+
+    .online-therapy {
+        top: unset;
+    }
+
+    .how-we-help {
+        top: unset;
+    }
+
+    .accourdian-block-txt {
+        top: 190px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .therapy-section {
+        padding: 15px;
+    }
+
+    .image-box img {
+        height: auto;
+    }
+
+    .therapy-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .therapy-info p {
+        font-size: 0.85rem;
+    }
+
+    .enquiry-btn {
+        font-size: 0.85rem;
+        padding: 8px 18px;
+    }
+
+    .nav-btn-non {
+        display: none;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .online-therapy-child {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .navbar {
+        justify-content: flex-end;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+        color: #fff;
+        width: 89%;
+        padding: 10px;
+        text-align: center;
+        font-size: 1rem;
+        bottom: 24px;
+        padding: 17px;
+    }
+
+    .header-parent {
+        display: block;
+    }
+
+    .therapy-wrapper-txt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .therapy-wrapper-Providing::before {
+        display: none;
+    }
+
+    .therapy-wrapper-Providing {
+        padding-left: unset;
+    }
+
+    .Therapy-vedio-Section {
+        top: unset;
+    }
+
+    .therapy-wrapper {
+        top: unset;
+    }
+
+    .Comprehensive-Care-container {
+        border-radius: unset;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: unset;
+    }
+
+    .footer-bottom p {
+        margin-top: 81px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .therapy-heading {
+        font-size: 1.2rem;
+    }
+
+    .therapy-subheading {
+        font-size: 1.5rem;
+    }
+
+    .therapy-video-stats {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:722px) {
+    .accourdian-block-txt {
+        top: 150px;
+    }
+}
+
+@media (max-width:656px) {
+    .online-therapy-child h2 {
+        font-size: 18px;
+        line-height: unset;
+    }
+
+    .online-therapy-child p {
+        font-size: 13px;
+        line-height: unset;
+    }
+
+    .online-therapy-child {
+        top: 20px;
+        height: unset;
+    }
+
+    .how-we-help-txt {
+        flex-direction: column;
+    }
+
+    .how-we-help-btn {
+        position: absolute;
+        bottom: 30px;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .how-we-help {
+        background: rgba(240, 249, 255, 1);
+        padding: 32px 20px 100px 20px;
+    }
+
+    .how-we-help-txt-sub {
+        align-items: flex-start;
+    }
+
+    .blog-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordion li:hover {
+        width: 300px;
+    }
+
+    .footer-online-subscribe p {
+        font-size: 10px;
+        padding-bottom: unset;
+    }
+
+    .footer-online-subscribe-top h2 {
+        font-size: 18px;
+    }
+
+    .subscribe-input {
+        padding: 5px 10px;
+    }
+
+    .suscribe-btn,
+    .subscribe-input {
+        padding: 7px 10px;
+
+    }
+
+    .subscribe-container {
+        width: 320px;
+    }
+
+    .footer {
+        top: 106px;
+        padding-right: unset;
+        padding-left: unset;
+    }
+
+    .footer-logo img {
+        width: 150px;
+        position: absolute;
+        top: 113px;
+    }
+
+    .social-icons-footer {
+        position: absolute;
+        top: 150px;
+        right: 50px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        right: 28%;
+    }
+
+    .footer-services,
+    .footer-links {
+        position: relative;
+        right: 117px;
+    }
+    .accourdian-block-txt {
+        top: 280px;
+    }
+
+    @keyframes smoothExpand {
+        0% {
+            width: 220px;
+            height: 614px;
+            border-radius: 0px;
+        }
+    
+        100% {
+            width: 400px;
+            height: 614px;
+            border-radius: 20px;
+        }
+    }
+}
+
+@media (max-width:617px) {
+
+    .footer-services,
+    .footer-links {
+        position: relative;
+        right: 110px;
+    }
+    
+    .accordion li:hover {
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .how-we-help {
+        padding: 30px 10px;
+    }
+
+    .footer-services,
+    .footer-links {
+        position: relative;
+        right: 90px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        right: 25%;
+    }
+}
+
+@media (max-width:549px) {
+
+    .footer-services,
+    .footer-links {
+        position: relative;
+        right: 60px;
+    }
+}
+
+@media (max-width: 492px) {
+    .top-bar .contact-info {
+        font-size: 11px;
+    }
+
+    .footer-services,
+    .footer-links {
+        position: relative;
+        right: 40px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        right: 20%;
+    }
+
+    .online-therapy-child {
+        top: 52px;
+    }
+
+    .overlay {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .subscribe-container {
+        width: 271px;
+        align-items: center;
+        /* margin: 0; */
+    }
+
+    .suscribe-btn {
+        position: relative;
+        right: 60px;
+    }
+
+    .online-therapy-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        position: relative;
+        bottom: 27px;
+    }
+
+    .online-therapy-btn1 {
+        padding: 5px 20px;
+        width: unset;
+    }
+
+    .online-therapy-child h2 {
+        font-size: 16px;
+    }
+
+    .therapy-wrapper {
+        position: relative;
+        top: 60px;
+    }
+
+    .Therapy-vedio-Section {
+        top: 100px;
+    }
+
+    .how-we-help {
+        bottom: 217px;
+    }
+
+    .therapy-play-button {
+        bottom: -19px;
+        left: 32px;
+    }
+
+    .Comprehensive-Care-txt h2 {
+        font-size: 19px;
+        line-height: 29.2px;
+    }
+
+    .Comprehensive-Care {
+        background-color: white;
+        padding: 0px 0px 100px 0px;
+        position: relative;
+        bottom: -50px;
+    }
+
+    .how-we-help {
+        bottom: unset;
+    }
+
+    .accordion li:hover {
+        width: 350px;
+        height: 614px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 481px) {
+
+    .footer-services,
+    .footer-links {
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media (max-width: 441px) {
+
+    .footer-services,
+    .footer-links {
+        position: relative;
+        right: 0px;
+    }
+    @keyframes smoothExpand {
+        0% {
+            width: 120px;
+            height: 614px;
+            border-radius: 0px;
+        }
+    
+        100% {
+            width: 300px;
+            height: 614px;
+            border-radius: 20px;
+        }
+    }
+    .accourdian-block-txt {
+        top: 180px;
+    }
+    .accordion li {
+        width: 290px;}
+}
+@media (max-width: 399px) {
+
+.top-bar .contact-info {
+    font-size: 10px;
+}}
+@media (max-width: 394px) {
+    .contact-info .separator {
+        margin: 0px 10px;
+    }
+    
+    .review-carousel-section .owl-theme .owl-dots {
+        right: 15%;
+    }
+
+    .Therapy-vedio-Section {
+        top: 250px;
+    }
+
+    .online-therapy {
+        background-size: cover;
+        height: 200px;
+        top: 50px;
+        /* border-radius: 30px; */
+    }
+
+    .online-therapy {
+        bottom: 40px;
+    }
+
+    .online-therapy-child {
+        top: unset;
+        bottom: 30px;
+        height: unset;
+    }
+
+    .overlay {
+        font-size: 8px;
+    }
+
+    .online-therapy-child {
+        /* top: 45px; */
+    }
+
+    .top-bar .contact-info {
+        font-size: 8px;
+    }
+
+    .online-therapy-btn1 {
+        width: 159px;
+    }
+
+    .card {
+        height: 310px;
+        padding: 20px 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card a {
+        padding: unset;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* .footer-services{
+        bottom: 250px;
+        position: relative;
+    } */
+}
+
+@media (max-width: 380px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-services {
+        position: absolute;
+        right: 0px;
+    }
+
+    .footer-links h4,
+    .footer-services h4,
+    .footer-contact h4 {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 0px;
+    }
+
+    .footer-links ul li a,
+    .footer-services ul li a,
+    .footer-contact ul li a {
+        font-size: 12px;
+        line-height: 0px;
+
+    }
+
+    .suscribe-btn,
+    .subscribe-input {
+        padding: 0px 0px;
+    }
+
+    .review-carousel-section .owl-theme .owl-dots {
+        left: unset;
+    }
+
+}

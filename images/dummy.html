@@ -1,0 +1,76 @@
+<section class="Therapy-vedio-Section">
+    <div class="container">
+        <div class="therapy-wrapper container-fluid">
+            <div class="row align-items-center">
+                <!-- Left Column: Text and Enquiry Button -->
+                <div class="col-lg-8 col-md-12 therapy-text-col">
+                    <div class="therapy-wrapper-txt">
+                        <div class="therapy-wrapper-wlc">
+                            <h4 class="therapy-heading">Welcome to Our Clinic</h4>
+                            <h2 class="therapy-subheading"><strong>Speech And Occupational Therapy For All
+                                    Ages</strong>
+                            </h2>
+                        </div>
+                        <div class="therapy-wrapper-Providing">
+                            <p class="therapy-description">Providing comprehensive speech and occupational therapy
+                                services for
+                                individuals of all ages, helping them achieve their full potential.</p>
+                            <div class="nav-btn thearapy-wrapper-btn">
+                                <a href="#">
+                                    Make An Enquiry
+                                    <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="therapy-wrappe-img">
+                        <img src="images/vid-clinic.webp" class="therapy-doctors-image"
+                            alt="Doctors Image">
+                    </div>
+                </div>
+
+                <!-- Right Column: Video and Stats -->
+                <div class="col-lg-4 therapy-video-stats">
+                    <div class="therapy-video-box">
+                        <video id="therapyVideo" class="img-fluid therapy-video-thumbnail"
+                            poster="images/vid-clinic-play.webp" controls>
+                            <source src="/images/7866909-hd_1080_1920_30fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="therapy-play-button" onclick="togglePlayPause()">
+                            <img src="images/video-icon.svg" id="playPauseIcon" alt="Play Video">
+                        </div>
+                    </div>
+                    <div class="therapy-stats text-center">
+                        <div class="therapy-stat-item">
+                            <h3>5,000</h3>
+                            <p>Recovered Patients</p>
+                        </div>
+                        <div class="therapy-stat-item">
+                            <h3>98%</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function togglePlayPause() {
+            const video = document.getElementById('therapyVideo');
+            const playPauseIcon = document.getElementById('playPauseIcon');
+        
+            if (video.paused) {
+                video.play();
+                playPauseIcon.src ='images/pause-white-color.jpg';
+            } else {
+                video.pause();
+                playPauseIcon.src = 'images/video-icon.svg'; 
+            }
+        }
+        
+    </script>
+
+

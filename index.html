@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Speech Clinic</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="script.js">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!--------------aos.css------------ -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="nav-header-container">
+        <!-- Top Bar with Contact Info -->
+        <div class="top-bar  text-white py-2">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="social-icons">
+                    <a href="#"><img src="images/ri_facebook-fill.svg" alt="Facebook"></a>
+                    <a href="#"><img src="images/mdi_instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="images/mdi_linkedin.svg" alt="linkdin"></a>
+                    <a href="#"><img src="images/mdi_twitter.svg" alt="Twitter"></a>
+                </div>
+                <div class="contact-info">
+                    <span><i class="fas fa-envelope"></i> info@sydneyspeechclinic.com.au</span>
+                    <span class="separator"></span>
+                    <span><i class="fas fa-phone-alt"></i>Phone: 02 8404 0715</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Header Section with Logo and Navigation -->
+        <header class="header">
+            <div class="container   header-parent">
+                <img src="images/logo.svg" alt="Sydney Speech Clinic Logo" class="logo">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Group Therapy Programs</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="teamDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Our Team
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="teamDropdown">
+                                    <a class="dropdown-item dropdown-toggle" href="#" id="listDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        List
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="listDropdown">
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                    </div>
+                                    <a class="dropdown-item dropdown-toggle" href="#" id="randomDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Random
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="randomDropdown">
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                    </div>
+                                    <a class="dropdown-item dropdown-toggle" href="#" id="therapyDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Therapy
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="therapyDropdown">
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                        <a class="dropdown-item" href="#">Dummy</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">General Content</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Our Articles</a></li>
+                            <li class="nav-item"><a class="nav-link" id="contactus" href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="nav-btn nav-btn-non">
+                    <a href="#">
+                        Make An Enquiry
+                        <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+        <!--------------------------------- Therapy Section ------------------------->
+
+
+        <section class="therapy-section therapy-section1 py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- First Row with two cards -->
+                    <div class="first-img g-3">
+                        <div class="therapy-card card-1 position-relative rounded-4 overflow-hidden">
+                            <img src="images/Untitled-3.svg" class="img-fluid Speech-Therapy" alt="Speech Therapy">
+                            <div class="overlay text-center position-absolute text-center   bg-opacity-50">
+                                <h5 class="first-overlay">Speech Therapy And Occupational Therapy Clinic</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-img g-5">
+                        <div class="therapy-card card-2 position-relative rounded-4 overflow-hidden">
+                            <img src="images/Untitled2.svg" class="img-fluid" alt="Building Confidence">
+                            <div
+                                class="overlay overlay2 position-absolute   bg-dark bg-opacity-50 text-white text-center">
+                                <h5 class="second-overlay">Building Confidence In Communication</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Therapy Image as third card -->
+                    <div class=" third-image d-none d-lg-block" id="union">
+                        <img src="images/Union.svg" class="img-fluid rounded-4 " alt="Therapy Image">
+                    </div>
+                </div>
+
+                <!-- Second Row with Text and Image (Responsive for smaller devices) -->
+                <div class=" row g-4 mt-4 align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class=" Comprehensive therapy-info p-4 rounded-4">
+                            <h2>Comprehensive <span>peech <br>and Occupational </span> Therapy for All Ages</h2>
+                            <div>
+                                <p class="lead">At our allied health clinic, we are dedicated to improving the health
+                                    and
+                                    well-being of children and adults with a wide range of professional services.</p>
+                                <div class="nav-btn btn-2">
+                                    <a href="#" id="Enquirybtn">
+                                        Make An Enquiry
+                                        <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon"
+                                            id="arrow-icon1">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="background-theorapy">
+                <img class="background-theorapy-left" src="images/ham-gr1.png" alt="ham-gr1">
+                <img class="background-theorapy-right" src="images/ham-gr2.png" alt="ham-gr2">
+            </div>
+        </section>
+    </div>
+
+    <!-- -------------------phone-therapy------------------ -->
+    <div class="container">
+        <div class="therapy-section-phone">
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-12"data-aos="fade-up">
+                    <div class="image-box image-box1">
+                        <img src="images/Untitled-3.svg" class="img-fluid"
+                            alt="Speech Therapy and Occupational Therapy Clinic">
+                        <div class="overlay">Speech Therapy And Occupational Therapy Clinic</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12"data-aos="fade-up">
+                    <div class="image-box">
+                        <img src="images/Untitled2.svg" class="img-fluid" alt="Building Confidence In Communication">
+                        <div class="overlay">Building Confidence In Communication</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-4"data-aos="fade-up">
+                <div class="col-12">
+                    <div class="image-box">
+                        <img src="images/Union-2.svg" class="img-fluid" alt="Comprehensive Therapy for Children">
+                        <!-- <div class="overlay">Comprehensive Therapy for Children</div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class=" row g-4 mt-4 align-items-center"data-aos="fade-up">
+                <div class="col-lg-12 ">
+                    <div class=" Comprehensive Comprehensive2 therapy-info p-4 rounded-4">
+                        <h2>Comprehensive <span>peech <br>and Occupational </span> Therapy for All Ages</h2>
+                        <div>
+                            <p class="lead">At our allied health clinic, we are dedicated to improving the health
+                                and
+                                well-being of children and adults with a wide range of professional services.</p>
+                            <div class="nav-btn btn-2">
+                                <a href="#">
+                                    Make An Enquiry
+                                    <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="background-theorapy-phone-left" src="images/ham-gr1.png" alt="ham-gr1">
+            <img class="background-theorapy-phone-right" src="images/ham-gr2.png" alt="ham-gr2">
+        </div>
+
+    </div>
+
+    <!-- --------------------Access Professional------------------- -->
+    <section>
+        <div class="container">
+            <div class="online-therapy  text-white py-5"data-aos="fade-up">
+                <div class=" text-center online-therapy-child">
+                    <h2>Access Professional Therapy From Anywhere</h2>
+                    <p>Convenient and Secure Online Therapy Sessions</p>
+                    <div class="online-therapy-btn">
+                        <div class="nav-btn online-therapy-btn1">
+                            <a href="#">
+                                Email Us
+                                <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon arrow-icon1">
+                            </a>
+                        </div>
+                        <div class="nav-btn online-therapy-btn1">
+                            <a href="#">
+                                Call Us <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon arrow-icon1">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------------------------Therapy-vedio-Section --------------------->
+    <section class="Therapy-video-Section">
+        <div class="container">
+            <div class="therapy-wrapper container-fluid">
+                <div class="row">
+                    <!-- Left Column: Text and Enquiry Button -->
+                    <div class="col-lg-8 col-md-12 therapy-text-col">
+                        <div class="therapy-wrapper-txt">
+                            <div class="therapy-wrapper-wlc"data-aos="fade-up">
+                                <h4 class="therapy-heading">Welcome to Our Clinic</h4>
+                                <h2 class="therapy-subheading"><strong>Speech And Occupational Therapy For All
+                                        Ages</strong>
+                                </h2>
+                            </div>
+                            <div class="therapy-wrapper-Providing"data-aos="fade-up">
+                                <p class="therapy-description">Providing comprehensive speech and occupational therapy
+                                    services for
+                                    individuals of all ages, helping them achieve their full potential.</p>
+                                <div class="nav-btn thearapy-wrapper-btn"data-aos="fade-up">
+                                    <a href="#">
+                                        Make An Enquiry
+                                        <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="therapy-wrappe-img"data-aos="fade-up">
+                            <img src="images/vid-clinic.webp" class="img-fluid therapy-doctors-image"
+                                alt="Doctors Image">
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Video and Stats -->
+                    <div class="col-lg-4 therapy-video-stats"data-aos="fade-up">
+                        <div class="therapy-video-box">
+                            <img src="images/welcome-clicknic.svg" class="img-fluid therapy-video-thumbnail"
+                                alt="Therapy Video">
+                            <div class="therapy-play-button" onclick="openVideoModal()">
+                                <img src="images/video-icon.svg" alt="Play Video">
+                            </div>
+                        </div>
+
+                        <div class="therapy-stats text-center"data-aos="fade-up">
+                            <div class="therapy-stat-item">
+                                <h3>5,000</h3>
+                                <p>Recovered Patients</p>
+                            </div>
+                            <div class="therapy-stat-item">
+                                <h3>98%</h3>
+                                <p>Satisfaction Rate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Video -->
+        <div id="therapyVideoModal" class="therapy-video-modal"data-aos="fade-up">
+            <div class="therapy-video-content">
+                <button class="therapy-close-button" onclick="closeVideoModal()">&#10006;</button>
+                <video class="therapy-video" controls>
+                    <source src="images/tearapy.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- --------------------------how we help--------- -->
+    <section class="how-we-help">
+        <div class="container text-center">
+            <div class="how-we-help-txt">
+                <div class="how-we-help-txt-sub"data-aos="fade-up">
+                    <h2>How We Help</h2>
+                    <p>Discover Our Comprehensive Support Services</p>
+                </div>
+                <div class="nav-btn how-we-help-btn"data-aos="fade-up">
+                    <a href="#">
+                        View More <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon arrow-icon1">
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-grid"data-aos="fade-up">
+                <div class="card"data-aos="zoom-out">
+                    <img src="images/card-1.svg" alt="Speech Icon">
+                    <h3>Speech</h3>
+                    <p>Children with speech difficulties may be experiencing delays/disorders of articulation and
+                        phonology, childhood apraxiaof speech (CAS) or stutteri...</p>
+                    <a href="#">Learn More <span><img src="images/arrow_outward1.svg" alt="arrow_outward1"></span></a>
+                </div>
+
+                <div class="card"data-aos="zoom-in">
+                    <img src="images/card-2.svg" alt="Language Icon">
+                    <h3>Language</h3>
+                    <p>Language difficulties may encompass delayed receptive and expressive language skills, late
+                        talkers, delayed development of play skills, reduced attention...</p>
+                    <a href="#">Learn More <span><img src="images/arrow_outward1.svg" alt="arrow_outward1"></span></a>
+                </div>
+
+                <div class="card"data-aos="zoom-in">
+                    <img src="images/card-3.svg" alt="Literacy Icon">
+                    <h3>Literacy</h3>
+                    <p>Literacy is language based and successfully learning to read and spell involves five 'key' skill
+                        areas; phonemic awareness (the ability to identify and manipulate...</p>
+                    <a href="#">Learn More <span><img src="images/arrow_outward1.svg" alt="arrow_outward1"></span></a>
+                </div>
+
+                <div class="card"data-aos="fade-in">
+                    <img src="images/card-4.svg" alt="Gross Motor Icon">
+                    <h3>Gross motor</h3>
+                    <p>Gross motor skills are those which require whole body movement and which involve the large
+                        muscles of the body. These whole bodyThese whole body movements rely...</p>
+                    <a href="#">Learn More <span><img src="images/arrow_outward1.svg" alt="arrow_outward1"></span></a>
+                </div>
+
+                <div class="card"data-aos="fade-up">
+                    <img src="images/card-5.svg" alt="Handwriting Icon">
+                    <h3>Handwriting</h3>
+                    <p>Early handwriting skills are fundamental skills children need to develop before they are able to
+                        write. These skills contribute to the child’sability to hold and use...</p>
+                    <a href="#">Learn More <span><img src="images/arrow_outward1.svg" alt="arrow_outward1"></span></a>
+                </div>
+
+                <div class="card"data-aos="fade-up">
+                    <img src="images/card-6.svg" alt="Cognition Icon">
+                    <h3>Cognition</h3>
+                    <p>Cognitive development means how children think, explore and figure things out. It is the
+                        development of knowledge, skills, problemsolving and disposition...</p>
+                    <a href="#">Learn More <span><img src="images/arrow_outward1.svg" alt="arrow_outward1"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------------------Comprehensive Care---------------------- -->
+
+    <section class="Comprehensive-Care">
+        <div class="container">
+            <div class="Comprehensive-Care-container">
+                <div class="Comprehensive-Care-img"data-aos="fade-up">
+                    <div class="img-fluid d-flex justify-content-center align-items-center">
+                        <img src="images/Subtract.svg" alt="Subtract" class="img-fluid">
+                    </div>
+                    <div class="Patients-popup">
+                        <h3>5K+ Patients</h3>
+                        <div class="review-patient">
+                            <img src="images/Star-5.svg" alt="Star">
+                            <p>5.0 (200 Reviews)</p>
+                        </div>
+                        <img class="popup-img" src="images/Avatar-Group.svg" alt="Avatar-Group">
+                    </div>
+                </div>
+                <div class="Comprehensive-Care-txt"data-aos="fade-up">
+                    <h2>Discover the Difference of Our Comprehensive Care</h2>
+                    <p>Receive personalized care for the whole family at our health clinic. Our dedicated team provides
+                        comprehensive services for children and adults, focusing on quality and compassion to ensure the
+                        highest level of care for every patient.</p>
+                    <div class="Comprehensive-Care-vector"data-aos="fade-up">
+                        <div>
+                            <img src="images/Vector-right.svg" alt="vector-right">
+                            <p>Personalized Treatment Plans</p>
+                        </div>
+                        <div>
+                            <img src="images/Vector-right.svg" alt="vector-right">
+                            <p>Experienced and Caring Team</p>
+                        </div>
+                        <div>
+                            <img src="images/Vector-right.svg" alt="vector-right">
+                            <p>State-of-the-Art Facilities</p>
+                        </div>
+                    </div>
+                    <div class="nav-btn patient-btn "data-aos="fade-up">
+                        <a href="#">
+                            Make An Enquiry
+                            <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ------------------ blog section------------------------------->
+    <section class="blog-section">
+        <div class="container">
+            <div class="how-we-help-txt"data-aos="fade-up">
+                <div class="how-we-help-txt-sub blog-section-top ">
+                    <h2>Explore Our Blog</h2>
+                    <p>Stay informed with our latest blog posts.</p>
+                </div>
+                <div class="nav-btn how-we-help-btn"data-aos="fade-up">
+                    <a href="#">
+                        View More <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon arrow-icon1">
+                    </a>
+                </div>
+            </div>
+
+            <div id="content">
+                <ul class="accordion blog-container" id="accordion">
+                    <li class="bg1 blog-container-sub active"data-aos="fade-up">
+                        <div class="heading">
+                            <div class="nav-btn accordion-btn">
+                                <a href="#" id="Enquirybtn">
+                                    <img src="images/arrow_green.svg" alt="Arrow" class="arrow-icon-a" id="arrow-icon1">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="description-content">
+                                <ul class="accourdian-block-link">
+                                    <a href="#">VocabularyBuilding</a>
+                                    <a href="#">SharedReading</a>
+                                    <a href="#">ChildDevelopment</a>
+                                    <a id="accourdian-block-link1" href="#">LanguageSkills</a>
+                                    <a id="accourdian-block-link1" href="#">EarlyLiteracy</a>
+                                </ul>
+                                <div class="accourdian-block-txt">
+                                    <h2>Building Vocabulary During Shared Book Reading
+                                    </h2>
+                                    <p>Research shows that reading with children from a young age greatly impacts their
+                                        long-term vocabulary development (Mol & Bus, 2011). It is also a great time to
+                                        bond with your child no matter what age!</p>
+                                    <div class="nav-btn accourdian-btn2">
+                                        <a href="#">Explore More</a>
+                                        <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon arrow-icon1">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="bg2"data-aos="fade-up">
+                        <div class="heading">
+                            <div class="nav-btn accordion-btn">
+                                <a href="#" id="Enquirybtn">
+                                    <img src="images/arrow_green.svg" alt="Arrow" class="arrow-icon-a" id="arrow-icon1">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="description-content">
+                                <ul class="accourdian-block-link">
+                                    <a href="#">VocabularyBuilding</a>
+                                    <a href="#">SharedReading</a>
+                                    <a href="#">ChildDevelopment</a>
+                                    <a id="accourdian-block-link1" href="#">LanguageSkills</a>
+                                    <a id="accourdian-block-link1" href="#">EarlyLiteracy</a>
+                                </ul>
+                                <div class="accourdian-block-txt">
+                                    <h2>Building Vocabulary During Shared Book Reading
+                                    </h2>
+                                    <p>Research shows that reading with children from a young age greatly impacts their
+                                        long-term vocabulary development (Mol & Bus, 2011). It is also a great time to
+                                        bond with your child no matter what age!</p>
+                                    <div class="nav-btn accourdian-btn2">
+                                        <a href="#">Explore More</a>
+                                        <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon arrow-icon1">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="bg3"data-aos="fade-up">
+                        <div class="heading">
+                            <div class="nav-btn accordion-btn">
+                                <a href="#" id="Enquirybtn">
+                                    <img src="images/arrow_green.svg" alt="Arrow" class="arrow-icon-a" id="arrow-icon1">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="description-content">
+                                <ul class="accourdian-block-link">
+                                    <a href="#">VocabularyBuilding</a>
+                                    <a href="#">SharedReading</a>
+                                    <a href="#">ChildDevelopment</a>
+                                    <a id="accourdian-block-link1" href="#">LanguageSkills</a>
+                                    <a id="accourdian-block-link1" href="#">EarlyLiteracy</a>
+                                </ul>
+                                <div class="accourdian-block-txt">
+                                    <h2>Building Vocabulary During Shared Book Reading
+                                    </h2>
+                                    <p>Research shows that reading with children from a young age greatly impacts their
+                                        long-term vocabulary development (Mol & Bus, 2011). It is also a great time to
+                                        bond with your child no matter what age!</p>
+                                    <div class="nav-btn accourdian-btn2">
+                                        <a href="#">Explore More</a>
+                                        <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-------------------------------------carousel-section--------------------------------->
+
+    <section class="carousel-section">
+        <div class="review-carousel-wrapper">
+            <div class="container">
+                <div class="review-header-text"data-aos="fade-up">
+                    <h2>What our patients say about us</h2>
+                    <p>Discover what our happy patients have to say about their experiences at Allied Health Clinic</p>
+                </div>
+                <div class="review-carousel-section">
+                    <div class="owl-carousel owl-theme patient-review-slider">
+                        <div class="review-slide-item" data-aos="fade-up">
+                            <div class="review-details-wrapper">
+                                <div class="patient-info">
+                                    <img src="./images/crp-1.webp" alt="Patient 1" loading="lazy">
+                                    <h5>Sarah M</h5>
+                                    <p>Sydney, Australia</p>
+                                </div>
+                                <div class="review-text-content">
+                                    <p>This clinic is a lifesaver! The occupational therapy sessions were thorough, and
+                                        I appreciated how they involved my entire family in the process. We saw great
+                                        results, and my child is more confident and capable now.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide-item"data-aos="fade-up">
+                            <div class="review-details-wrapper">
+                                <div class="patient-info">
+                                    <img src="./images/crp-1.webp" alt="Patient 2" loading="lazy">
+                                    <h5>John D</h5>
+                                    <p>Melbourne, Australia</p>
+                                </div>
+                                <div class="review-text-content">
+                                    <p>Allied Health Clinic has been incredible in helping me manage my chronic pain.
+                                        Their physiotherapy program is top-notch, and I’ve made great progress since I
+                                        started treatment here.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide-item"data-aos="fade-up">
+                            <div class="review-details-wrapper">
+                                <div class="patient-info">
+                                    <img src="./images/crp-1.webp" alt="Patient 3" loading="lazy">
+                                    <h5>Emily R</h5>
+                                    <p>Brisbane, Australia</p>
+                                </div>
+                                <div class="review-text-content">
+                                    <p>The staff at Allied Health Clinic are incredibly friendly and professional. The
+                                        occupational therapy I received was thorough and helped me regain my strength
+                                        and mobility.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide-item"data-aos="fade-up">
+                            <div class="review-details-wrapper">
+                                <div class="patient-info">
+                                    <img src="./images/crp-1.webp" alt="Patient 4" loading="lazy">
+                                    <h5>Michael B</h5>
+                                    <p>Perth, Australia</p>
+                                </div>
+                                <div class="review-text-content">
+                                    <p>I can’t thank the team at Allied Health enough. Their physio program helped me
+                                        recover after my surgery, and the support I received throughout the process was
+                                        amazing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------------------suscribe-section-------------------------- -->
+
+
+    <!-- ----------------------footer----------------------- -->
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-online-subscribe text-center">
+            <div class="footer-online-subscribe-top"data-aos="fade-up">
+                <h2>Subscribe to improve your health</h2>
+                <img src="/images/fi_3128695.svg" alt="fi_3128695">
+            </div>
+            <p data-aos="fade-up">Join our newsletter for expert tips on enhancing your health and well-being.</p>
+            <div class="enter-mail-bg"data-aos="fade-up">
+                <div class="subscribe-container">
+                    <input type="email" placeholder="Enter your email" class="subscribe-input">
+                    <div class="nav-btn suscribe-btn">
+                        <button class="subscribe-btn" type="submit">Subscribe</button>
+                        <img src="images/arrow_outward.svg" alt="Arrow" class="arrow-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.svg" alt="Sydney Speech Clinic Logo">
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">How We Help</a></li>
+                        <li><a href="#">Booking Process</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Speech Therapy</a></li>
+                        <li><a href="#">Occupational Therapy</a></li>
+                        <li><a href="#">Pediatric Therapy</a></li>
+                        <li><a href="#">Adult Therapy</a></li>
+                        <li><a href="#">Teletherapy Services</a></li>
+                        <li><a href="#">Group Therapy Programs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="mailto:info@sydneyspeechclinic.com.au"><img src="images/fi_712040.svg"
+                                    alt="Email">info@sydneyspeechclinic.com.au</a></li>
+                        <li><a href="tel:+02084040715"><img src="images/material-symbols_call.svg" alt="Phone">02 8404
+                                0715</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright 2020 (C) Sydney Speech Clinic</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+                </div>
+
+                <div class="social-icons-footer">
+                    <a href="#"><img src="images/mdi_twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="images/mdi_instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="images/ri_facebook-fill.svg" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- <script>
+            $(function () {
+                $('#accordion > li')(
+                    function () {
+                        var $this = $(this);
+                        $this.stop().animate({ 'width': '480px' }, 500);
+                        $('.heading', $this).fadeOut();
+                        $('.bgDescription', $this).slideDown(500);
+                        $('.description', $this).fadeIn();
+                    },
+                    function () {
+                        var $this = $(this);
+                        $this.stop().animate({ 'width': '115px' }, 1000);
+                        $('.heading', $this).fadeIn();
+                        $('.description', $this).fadeOut(500);
+                        $('.bgDescription', $this).slideUp(700);
+                    }
+                );
+            });
+        </script> -->
+
+
+    <script>
+        function openVideoModal() {
+            // Show the modal
+            document.getElementById('therapyVideoModal').style.display = 'flex';
+
+            // Get the video element and play the video
+            const video = document.querySelector('.therapy-video');
+            video.play();
+        }
+
+        function closeVideoModal() {
+            // Hide the modal
+            document.getElementById('therapyVideoModal').style.display = 'none';
+
+            // Pause the video and reset its time
+            const video = document.querySelector('.therapy-video');
+            video.pause();
+            video.currentTime = 0;
+        }
+
+    </script>
+
+    <!-- jQuery (Owl Carousel and Bootstrap dependency) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Popper.js (required for Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap 4.5.2 JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS (if necessary) -->
+    <script src="js/index.js"></script>
+
+     <!-- ----------------aos js ---------------------- -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+         AOS.init({
+             offset:300,
+             duration:1000,
+         });
+     </script>
+
+</body>
+
+</html>
